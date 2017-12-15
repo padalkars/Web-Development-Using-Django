@@ -1,0 +1,6 @@
+<link rel = "stylesheet" href = "{% state 'css/bootstrap.min.css' 
+	%}" type = 'text/css'/>								
+	
+	DENA EUPI
+	prajaktapeshkar@gmail.com
+	9422915588

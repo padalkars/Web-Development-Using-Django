@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+	<title>Shrikrishna Padalkar</title>
+	{% load staticfiles %}			<!- The CSS will be loaded here. Here we load static file. ->
+	<link rel = "stylesheet" href = "{% state 'css/bootstrap.min.css' 
+	%}" type = 'text/css'/>								
+	
+</head>
+<body background = "C:/Users/shrikrishna.padalkar/Documents/Study/Programs/Application Development/Django-tutorials/mysite/personal/templates/personal/Chrysanthemum.jpg">
+
+<div style="background-color:#7bceeb;">
+	{% block content %}
+	{% endblock %}
+</div>
+<h1> I am selected in Amazon as a Software Developer.</h1> 
+<p> I am a Data Scientist.</p>
+
+</body>
+</html>
