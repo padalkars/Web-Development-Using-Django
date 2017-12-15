@@ -20,6 +20,7 @@ from django.conf.urls import url, include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^ggg/$', include('personal.urls')),
+    url(r'^profiles/$', include('profiles.urls'))
     #url(r'^login/$', login, {'template_name': 'admin/login.html'})
     #url(r'^login/$',include('profiles.urls')),
 ]
