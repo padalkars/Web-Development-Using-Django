@@ -1,0 +1,8 @@
+<!- extends is used for pages which you want to be present everywhere in your website. Viz. Header and footer. ->
+{% extends "personal/header.html" %}
+
+{% block content %}
+	<p>Hi there. An eye towards your goal, leads to constant self improvement.</p>
+	<p>If you want to live a happy life, tie it to a goal rather than to people.</p>
+{% include "personal/includes/htmlsnippet.html" %}
+{% endblock %}
